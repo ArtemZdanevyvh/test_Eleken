@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*font-family: 'Playfair Display', serif;*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #b4b4b4;
+}
+
+a:hover {
+	color: #000000;
+}
+
+ul {
+	padding: 0;
+}
+
+.container-fluid {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.myButton {
+	height: 45px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #b4b4b4;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.topLine {
+	border-bottom: 1px solid #b4b4b4;
+	border-top: 1px solid #b4b4b4;
+	margin-bottom: 85px;
+	padding: 12px 265px 0 108px;
+}
+
+.mainMenu {
+	margin: 30px 0 0 17%;
+}
+
+.topLineRight,
+.topLineLeft {
+	padding-top: 14px;
+	padding-right: 136px;
+	letter-spacing: 1.4px;
+}
+
+.topLineRight ul li a,
+.topLineLeft ul li a,
+.mainMenu ul li a,
+.lastMenuList ul li a,
+.sort ul li a,
+.footMenu ul li a {
+	text-decoration: none;
+}
+
+.topLineRight ul li,
+.sort ul li,
+.footMenu ul li {
+	display: inline-block;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.mainMenu ul li {
+	display: inline-block;
+	margin-right: 50px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}
+
+.topLineLeft ul li,
+.lastMenuList ul li {
+	display: inline-block;
+	margin-right: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}
+.topLineRight {
+	float: right;
+}
+
+.topLineLeft {
+	float: left;
+}
+
+.dropdown-toggle i {
+	margin-left: 15px;
+	color: #6C6C6C;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.headLogo,
+.mainMenu {
+	float: left;
+}
+
+.headLogo {
+	padding-left: 20px;
+}
+
+.headLogo span {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+}
+
+.lastMenuList {
+	float: right;
+}
+
+.mainMenu ul li a,
+.lastMenuList ul li a {
+	font-size: 12px;
+}
+
+.mainMenu ul li a:hover,
+.lastMenuList ul li a:hover,
+.sort ul li a:hover {
+	border-bottom: 2px solid #1476d4;
+	padding-bottom: 8px;
+}
+
+.lastMenuList {
+	margin: 12px 0 0 0;
+}
+
+.lastMenuList ul li {
+	margin-right: 15px;
+}
+
+.circle {
+	width: 48px;
+	height: 48px;
+	border: 2px solid #1476d4;
+	border-radius: 50px;
+	text-align: center;
+	padding: 12px;
+}
+
+.search {
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 6px !important;
+	margin-top: 13px;
+	color: #b4b4b4;
+}
+.content h1, 
+.price,
+.name {
+	text-align: center;
+}
+
+.content {
+	padding-right: 290px;
+}
+
+.content h1 {
+	font-size: 58px;
+}
+
+.sort {
+	margin: 57px 0px 46px 255px;
+	font-size: 13px;
+	letter-spacing: 1.4px;
+}
+
+.sort ul li {
+	margin: 0 43px 0 0;
+}
+
+.prodImg1,
+.prodImg2,
+.prodImg3,
+.prodImg4,
+.prodImg5,
+.prodImg6,
+.prodImg7,
+.prodImg8 {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 335px;
+	background-color: #eae8e9;
+}
+
+.prodImg1 {
+	background-image: url(images/1.png);
+}
+
+.prodImg2 {
+	background-image: url(images/2.png);
+}
+
+.prodImg3 {
+	background-image: url(images/3.png);
+}
+
+.prodImg4 {
+	background-image: url(images/4.png);
+}
+
+.prodImg5 {
+	background-image: url(images/5.png);
+}
+
+.prodImg6 {
+	background-image: url(images/6.png);
+}
+
+.prodImg7 {
+	background-image: url(images/7.png);
+}
+
+.prodImg8 {
+	background-image: url(images/8.png);
+}
+
+.price ul {
+	padding: 0;
+	margin: 0;
+}
+
+.price li {
+	list-style: none;
+	display: inline-block;
+}
+
+.product {
+	height: 415px;
+	margin-bottom: 22px;
+}
+
+.newProd {
+	background-color: #1476d4;
+	border-radius: 12px;
+	padding: 5px 12px;
+	color: #ffffff;
+	font-size: 11px;
+	position: absolute;
+	z-index: 10;
+	top: 24px;
+	left: 38px;
+}
+
+.name h3 {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.product h5 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+
+.product h5.newPrice {
+	color: #fc411d;
+	padding-left: 10px;
+}
+
+.contentButt {
+	margin: 9px 0 40px 45%;
+	letter-spacing: 1.4px;
+}
+
+.content2 {
+	background-image: url(images/blueLine_24.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 287px;
+	padding-right: 300px;
+}
+
+.content2 h4 {
+	margin: 69px auto 0px auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+}
+
+.content2 h2 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 38px;
+}
+
+.buttBlueLine {
+	color: #ffffff;
+	padding: 12px 23px;
+	margin: 17px auto 70px 37%;
+	height: 47px;
+	letter-spacing: 1.4px;
+}
+
+.buttBlueLine i {
+	padding-left: 90px;
+	font-size: 18px;
+}
+
+.footMenu, .lastFootList {
+	float: left;
+}
+
+.footMenu {
+	margin: 44px 30px 50px 16%;
+	letter-spacing: 1.4px;
+}
+
+.footMenu ul li {
+	margin: 0 53px 0 0;
+}
+
+.footMenu ul li a {
+	color: #000000;
+}
+
+.lastFootList {
+	margin: 44px 0 0 0;
+	color: #b4b4b4;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+}
+
+footer .headLogo {
+	margin-top: 13px;
+	padding: 0;
+}
+
+.headLogo .end {
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+}
